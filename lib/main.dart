@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:week2/counter_model.dart';
-import 'package:week2/home_page.dart';
+import 'package:week2/models/counter_model.dart';
+import 'package:week2/views/home_page.dart';
 import 'package:provider/provider.dart';
 
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.yellowAccent),
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
