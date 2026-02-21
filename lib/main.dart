@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:week2/counter_model.dart';
-import 'package:week2/home_page.dart';
+import 'package:week2/models/counter_model.dart';
+import 'package:week2/views/home_page.dart';
 import 'package:provider/provider.dart';
 
 
