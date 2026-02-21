@@ -20,6 +20,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Consumer<CounterModel>(
       builder: (context, value, child) {
         return Scaffold(
+          backgroundColor: Colors.yellow[200],
           appBar: AppBar(
             backgroundColor: Theme.of(context).colorScheme.inversePrimary,
             title: Text(widget.title),
